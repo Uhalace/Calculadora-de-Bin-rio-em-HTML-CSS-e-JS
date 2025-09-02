@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de Binário</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+ <script src="js/pegar.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card p-4 text-center">
+          <h1 class="mb-3">Calculadora de Binário</h1>
+          <div class="mb-3">
+            <input type="number" id="pegar" class="form-control form-control-lg" placeholder="Digite um número">
+          </div>
+          <button class="btn btn-primary btn-lg w-100 mb-3" onclick="pegar()">Converter</button>
+          <p class="fs-5">Binário: <span id="resultado" class="text-success"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
